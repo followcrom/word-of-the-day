@@ -5,7 +5,7 @@
 **Word of the Day** is a project designed to send a random word along with its definition, type, and example sentences to a specified list of email recipients. The email lands in their inboxes every day at a scheduled time, using GitHub Actions.
 
 <div align="center">
-  <img src="https://www.followcrom.online/embeds/wotd.png" width="200">
+  <img src="https://www.followcrom.online/embeds/wotd.png" width="512">
 </div>
 
 <!-- ![Word of the Day](https://www.followcrom.online/embeds/wotd.png "Word of the Day") -->
