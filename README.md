@@ -2,9 +2,13 @@
 
 ## Overview
 
-**Word of the Day** is a project designed to send a random word along with its definition, type, and an example sentence to a specified list of email recipients every day at a scheduled time using GitHub Actions.
+**Word of the Day** is a project designed to send a random word along with its definition, type, and example sentences to a specified list of email recipients. The email lands in their inboxes every day at a scheduled time, using GitHub Actions.
 
-![Word of the Day](https://www.followcrom.online/embeds/wotd.png "Word of the Day")
+<div align="center">
+  <img src="https://www.followcrom.online/embeds/wotd.png" width="200">
+</div>
+
+<!-- ![Word of the Day](https://www.followcrom.online/embeds/wotd.png "Word of the Day") -->
 
 ## Features
 
@@ -21,10 +25,8 @@ The project uses a Python script to select a random word from a CSV file and the
 To set up the project for your own use, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Set up the required secrets (`GMAIL_ACCOUNT` and `GMAIL_PASSWORD`) in your GitHub repository settings.
+2. Set up the required secrets (`GMAIL_ACCOUNT`, `EMAIL_LIST` and `GMAIL_PASSWORD`) in your GitHub repository settings.
 3. Customize the `word_list.csv` with your desired words.
-4. Update the recipient list in the `word_of_the_day.py` script.
-5. Push changes to your repository to trigger the GitHub Action.
 
 ## Usage
 
