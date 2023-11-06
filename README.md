@@ -4,6 +4,8 @@
 
 **Word of the Day** is a project designed to send a random word along with its definition, type, and an example sentence to a specified list of email recipients every day at a scheduled time using GitHub Actions.
 
+![Word of the Day](https://www.followcrom.online/embeds/wotd.png "Word of the Day")
+
 ## Features
 
 - **Daily Learning:** Receive a new word every day to expand your vocabulary.

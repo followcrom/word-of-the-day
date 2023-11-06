@@ -3,7 +3,11 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import datetime
+from dotenv import load_dotenv
 import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Read the Excel file
 words_df = pd.read_csv("./data/all_words.csv")
@@ -40,7 +44,7 @@ print(word_details)  # For testing, to see the output in your console
 # Function to send email with the word of the day
 def send_email(word_details):
     fromaddr = os.getenv("GMAIL_ACCOUNT")
-    toaddr = ["teedcrompton@hotmail.com", "teedcrompton@gmail.com"]
+    toaddr = os.getenv("EMAIL_LIST").split(",")
     msg = MIMEMultipart()
     msg["From"] = "LEXicon John"
     msg["To"] = ", ".join(toaddr)

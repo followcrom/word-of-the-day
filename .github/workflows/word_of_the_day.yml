@@ -26,3 +26,4 @@ jobs:
         env:
           GMAIL_ACCOUNT: ${{ secrets.GMAIL_ACCOUNT }}
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+          EMAIL_LIST: ${{ secrets.EMAIL_LIST }}
