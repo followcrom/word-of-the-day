@@ -42,6 +42,12 @@ The `requirements.txt` file lists all the Python libraries needed to run the scr
 
 `pip install -r requirements.txt`
 
+## Contact
+
+🌐 followCrom: [followcrom.online](https://followcrom.online/index.html) 🌐
+
+📫 followCrom: [get in touch](https://followcrom.online/contact/contact.php) 📫
+
 ## Contributing
 
 Contributions to the "Word of the Day" project are welcome. Please ensure to update tests as appropriate.
@@ -51,9 +57,3 @@ Contributions to the "Word of the Day" project are welcome. Please ensure to upd
 This project is open source and available under the MIT License. See the LICENSE file for details.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-## Contact
-
-🌐 followCrom: [followcrom.online](https://followcrom.online/index.html) 🌐
-
-📫 followCrom: [get in touch](https://followcrom.online/contact/contact.php) 📫
