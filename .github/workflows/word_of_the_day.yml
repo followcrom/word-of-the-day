@@ -1,0 +1,28 @@
+name: Word of the Day
+
+on:
+  schedule:
+    # Runs at 13:00 PM UTC every day
+    - cron: "0 13 * * *"
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the email script
+        run: python word_of_the_day.py
+        env:
+          GMAIL_ACCOUNT: ${{ secrets.GMAIL_ACCOUNT }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
