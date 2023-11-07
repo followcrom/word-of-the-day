@@ -14,10 +14,14 @@ To set up the project for your own use, follow these steps:
 
 1. Clone the repository to your local machine:
 
-`git clone https://github.com/followcrom/word-of-the-day.git` 2. Create environmental variables with the following secrets in your GitHub repository settings:
-`GMAIL_ACCOUNT`
-`GMAIL_PASSWORD`
-`EMAIL_LIST`. 3. Customize the `complete_words.csv` with your own words.
+`git clone https://github.com/followcrom/word-of-the-day.git`
+
+2. Create environmental variables with the following secrets in your GitHub repository settings:
+   `GMAIL_ACCOUNT`
+   `GMAIL_PASSWORD`
+   `EMAIL_LIST`
+
+3. Customize the `complete_words.csv` with your own words.
 
 ## Usage
 
