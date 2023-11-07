@@ -17,6 +17,7 @@ To set up the project for your own use, follow these steps:
 `git clone https://github.com/followcrom/word-of-the-day.git`
 
 2. Create environmental variables with the following secrets in your GitHub repository settings:
+
    `GMAIL_ACCOUNT`
    `GMAIL_PASSWORD`
    `EMAIL_LIST`
