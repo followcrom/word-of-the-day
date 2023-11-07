@@ -10,7 +10,7 @@ import os
 load_dotenv()
 
 # Read the Excel file
-words_df = pd.read_csv("./data/all_words.csv")
+words_df = pd.read_csv("./data/complete_words.csv")
 
 
 # Function to get a random word and its details
@@ -25,13 +25,13 @@ word_of_the_day = get_word_of_the_day(words_df)
 
 # Function to format word details, omitting any NaN values
 def format_word_details(word_row):
-    details = f"Word of the Day: {word_row['word']}"
-    if not pd.isna(word_row["word_type"]):
-        details += f"\nType: {word_row['word_type']}"
-    if not pd.isna(word_row["meaning"]):
-        details += f"\nDefinition: {word_row['meaning']}"
+    details = (
+        f"Word of the Day: {(word_row['word']).upper()} ({word_row['word_type']})\n"
+    )
+    if not pd.isna(word_row["definition"]):
+        details += f"\nDefinition: {word_row['definition']}\n"
     if not pd.isna(word_row["examples"]):
-        details += f"\nExample: {word_row['examples']}"
+        details += f"\nTake it for a spin: {word_row['examples']}"
     return details
 
 
