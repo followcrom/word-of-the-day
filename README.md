@@ -14,7 +14,7 @@ To set up the project for your own use, follow these steps:
 
 1. Clone the repository to your local machine:
 
-`git clone https://github.com/followcrom/word-of-the-day.git`
+   `git clone https://github.com/followcrom/word-of-the-day.git`
 
 2. Create environmental variables with the following secrets in your GitHub repository settings:
 
@@ -26,7 +26,9 @@ To set up the project for your own use, follow these steps:
 
 ## Usage
 
-Once set up, the GitHub Action will run automatically. You can modify the schedule in the `.github/workflows/word_of_the_day.yml` file if you wish to change the email delivery time.
+Once set up, the GitHub Action will run automatically. You can change the email delivery time here:
+
+`.github/workflows/word_of_the_day.yml`
 
 ## Requirements
 
