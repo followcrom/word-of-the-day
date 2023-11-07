@@ -2,10 +2,10 @@
 
 ## Overview
 
-**Word of the Day** uses a Python script to select a random word from a CSV file. That word, along with its definition and example sentences, are emailed to a list recipients. The email lands in their inboxes every day at a scheduled time, using GitHub Actions.
+**Word of the Day** uses a Python script to select a random word from a CSV file. That word, along with its definition and example sentences, are emailed to a list of recipients. Using GitHub Actions, the email lands in their inboxes every day at a scheduled time.
 
 <div align="center">
-  <img src="https://www.followcrom.online/embeds/wotd.png" width="250">
+  <img src="https://www.followcrom.online/embeds/wotd.png" width="400">
 </div>
 
 ## Setup
@@ -13,12 +13,11 @@
 To set up the project for your own use, follow these steps:
 
 1. Clone the repository to your local machine:
-   `git clone https://github.com/followcrom/word-of-the-day.git`
-2. Create environmental variables with the following Repository secrets in your GitHub repository settings:
-   `GMAIL_ACCOUNT`
-   `GMAIL_PASSWORD`
-   `EMAIL_LIST`.
-3. Customize the `complete_words.csv` with your own words.
+
+`git clone https://github.com/followcrom/word-of-the-day.git` 2. Create environmental variables with the following secrets in your GitHub repository settings:
+`GMAIL_ACCOUNT`
+`GMAIL_PASSWORD`
+`EMAIL_LIST`. 3. Customize the `complete_words.csv` with your own words.
 
 ## Usage
 
