@@ -2,31 +2,23 @@
 
 ## Overview
 
-**Word of the Day** is a project designed to send a random word along with its definition, type, and example sentences to a specified list of email recipients. The email lands in their inboxes every day at a scheduled time, using GitHub Actions.
+**Word of the Day** uses a Python script to select a random word from a CSV file. That word, along with its definition and example sentences, are emailed to a list recipients. The email lands in their inboxes every day at a scheduled time, using GitHub Actions.
 
 <div align="center">
-  <img src="https://www.followcrom.online/embeds/wotd.png" width="512">
+  <img src="https://www.followcrom.online/embeds/wotd.png" width="250">
 </div>
-
-<!-- ![Word of the Day](https://www.followcrom.online/embeds/wotd.png "Word of the Day") -->
-
-## Features
-
-- **Daily Learning:** Receive a new word every day to expand your vocabulary.
-- **Automated Emails:** The word of the day is automatically sent without any manual intervention.
-- **Customizable:** Easy to add or remove words from the list, as well as to change the recipient list.
-
-## How It Works
-
-The project uses a Python script to select a random word from a CSV file and then sends an email to all listed recipients using SMTP. GitHub Actions is set up to run this script once every day at 12:30 UTC.
 
 ## Setup
 
 To set up the project for your own use, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Set up the required secrets (`GMAIL_ACCOUNT`, `EMAIL_LIST` and `GMAIL_PASSWORD`) in your GitHub repository settings.
-3. Customize the `word_list.csv` with your desired words.
+1. Clone the repository to your local machine:
+   `git clone https://github.com/followcrom/word-of-the-day.git`
+2. Create environmental variables with the following Repository secrets in your GitHub repository settings:
+   `GMAIL_ACCOUNT`
+   `GMAIL_PASSWORD`
+   `EMAIL_LIST`.
+3. Customize the `complete_words.csv` with your own words.
 
 ## Usage
 
@@ -52,10 +44,12 @@ The `requirements.txt` file lists all the Python libraries needed to run the scr
 
 ## Contributing
 
-Contributions to the "Word of the Day" project are welcome. Please ensure to update tests as appropriate.
+😊 Contributions to the **Word of the Day** project are welcome. 😊
+
+👷 Feel free to open a pull request or branch from this project. 👷
 
 ## License
 
-This project is open source and available under the MIT License. See the LICENSE file for details.
+This project is open source and available under the MIT License.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
