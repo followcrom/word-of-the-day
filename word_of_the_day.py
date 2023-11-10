@@ -26,14 +26,12 @@ word_of_the_day = get_word_of_the_day(words_df)
 # Function to format word details, omitting any NaN values
 def format_word_details(word_row):
     details = "<html><body>"
-    details += "<img src='https://followcrom.online/images/djrr.jpg' alt='Image' style='width:100%;max-width:600px;'>"
-    details += f"<h2>Word of the Day: <b>{(word_row['word']).upper()}</b> ({word_row['word_type']})</h2>"
+    details += f"<h2>&#x1F4A1; Word of the Day: <b>{(word_row['word']).upper()}</b> ({word_row['word_type']})</h2>"
     if not pd.isna(word_row["definition"]):
         details += f"<p><b>Definition:</b> {word_row['definition']}</p>"
     if not pd.isna(word_row["examples"]):
-        details += f"<p><b>Take it for a spin:</b> {word_row['examples']}</p>"
+        details += f"<p><b>Take it for a spin:</b> {word_row['examples']}</p><p>&#x1F50E; <a href='https://followcrom.online/index.html'>Discover More</a> &#x1F50E;</p>"
 
-    # End of the HTML body
     details += "</body></html>"
     return details
 
@@ -56,8 +54,9 @@ def send_email(word_details):
     date_str = datetime.datetime.now().strftime("%Y-%m-%d")
     msg["Subject"] = f"Word of the Day for {date_str}"
 
-    body = word_details
-    msg.attach(MIMEText(body, "plain"))
+    msg.attach(MIMEText(word_details, "html"))
+    # body = word_details
+    # msg.attach(MIMEText(body, "plain"))
 
     try:
         server = smtplib.SMTP("smtp.gmail.com", 587)
