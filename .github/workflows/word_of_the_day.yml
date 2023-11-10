@@ -2,10 +2,8 @@ name: Word of the Day
 
 on:
   schedule:
-    # Runs at 9:00 AM UTC every day
-    - cron: "0 9 * * *"
-    # Runs at 12:30 PM UTC every day
-    - cron: "30 12 * * *"
+    # Runs at 6pm UTC (1pm EST) Monday through Friday
+    - cron: "0 18 * * 1-5"
 
 jobs:
   send-email:
