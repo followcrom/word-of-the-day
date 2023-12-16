@@ -2,24 +2,29 @@ name: Word of the Day
 
 on:
   schedule:
-    # Runs at 6pm UTC (1pm EST) Monday through Friday
-    - cron: "0 18 * * 1-5"
+    # This schedule triggers the workflow every Monday at 6 PM UTC
+    - cron: "0 18 * * 1"
+    # This schedule triggers the workflow every weekday at 6 PM UTC
+    # - cron: "0 18 * * 1-5"
 
 jobs:
   send-email:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Specifies the runner environment to be the latest version of Ubuntu
 
     steps:
       - name: Check out the repository
         uses: actions/checkout@v3
+        # Checks out your repository under $GITHUB_WORKSPACE, so the workflow can access it
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
+        # This step sets up a Python environment, specifying a version in the Python 3.x range
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+        # Installs the dependencies listed in your requirements.txt file
 
       - name: Run the email script
         run: python word_of_the_day.py
@@ -27,3 +32,5 @@ jobs:
           GMAIL_ACCOUNT: ${{ secrets.GMAIL_ACCOUNT }}
           GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
           EMAIL_LIST: ${{ secrets.EMAIL_LIST }}
+        # This step runs the Python script to send the Word of the Day email
+        # It uses secrets to securely pass sensitive information like your Gmail account details and email list
