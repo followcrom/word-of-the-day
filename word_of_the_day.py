@@ -39,7 +39,8 @@ def format_word_details(word_row):
 # Format the word of the day into an email body
 word_details = format_word_details(word_of_the_day)
 
-print(word_details)  # For testing, to see the output in your console
+# For testing
+# print(word_details)
 
 
 # Function to send email with the word of the day
