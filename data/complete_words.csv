@@ -1,6 +1,4 @@
 ﻿word,word_type,definition,examples
-a posteriori,adjective,"“from the later""
-a proposition known as a result of experiential evidence","Upon examining the evidence from the experiment, the scientist formulated an a posteriori hypothesis to explain the observed phenomena."
 a priori,adjective,"""from the earlier"" / ahead of time
 knowledge that is justified independently of experience
 The distinction between a priori and a posteriori corresponds to the distinction between empirical and non-empirical knowledge","""It's freezing outside; you must be cold"" is an example of a priori reasoning."
@@ -31,6 +29,7 @@ aesthetic,adjective,"from a Greek word meaning ""perception"", the word comes to
 aggregate,noun,to collect many into one,"The aggregate number of people in attendance was 12,000."
 agronomist,noun,an expert in soil management and field-crop production,The agronomist studied different soil types to determine which crops would be most successful in each location.
 amity,noun,friendly relations,The presence of French troops in Scotland had produced hostility rather than amity.
+anachoresis,noun,"the act of withdrawal or retreating from society or social activities, often for spiritual or contemplative purposes.","The practice of anachoresis, or withdrawal from society for spiritual contemplation, dates back centuries."
 analgesic,noun/adj,"a medicine that takes away physical pain
 As a noun, analgesic is the actual medicine, and as an adjective, it describes the effect of the medicine: ",This pill has an analgesic effect.
 analogy,noun,a comparison of the features or qualities of two different things to show their similarities,The stock market recorded a 0.4% annual increase that was roughly analogous to results in the late 1960s.
@@ -256,6 +255,7 @@ emollient,adjective,"having the quality of softening or soothing, especially to 
 emolument,noun,"the money you receive for working
 e-MALL-you-ment
 the Latin emolumentum - ""profit, gain""",I do not accept any emoluments for work performed in my role as a volunteer.
+endemic,adjective,"a disease or condition that is constantly present and widespread in a particular population, region, or area.",Malaria is endemic to certain tropical regions.
 enervating,adjective,causing weakness or debilitation,The enervating heat was making it difficult to concentrate.
 enology,noun,the art of wine making,I enrolled in an enology course to learn more about the science and art of winemaking.
 epidemiology,noun,"the study of diseases
@@ -303,6 +303,7 @@ from the Latin word fecundus- fruitful
 can also be used to describe someone who is innovative or highly intellectually productive",Your fecund imagination will be an asset if you tell ghost stories around the campfire.
 feudal,noun,"political system developed in Europe in the 8th century; a lord owned the land while vassals and serfs farmed it in return for accomadation. Feudalism ended in the 1400s. People who lived during feudalism didn't use the term. It wasn't until several centuries after the system ended that scholars coined it. -ism means ""philosophy or system"" while Feudal comes from the Medieval Latin feudalis- ""feudal estate,"" and is related to feodary - ""one who holds lands of an overlord in exchange for service""","During the feudal era, land was divided among the aristocracy."
 fitful,adjective,"stopping and starting, switching suddenly",I had a fitful night's sleep: I woke up several times throughout the night.
+flagellants,noun,"individuals or groups who practice self-flagellation, which is the act of whipping or striking oneself as a form of religious or penitential practice.","The flagellants marched through the streets, whipping themselves as a form of religious penance."
 foment,verb,"stir up trouble, turn a group into an angry mob",They accused him of fomenting political unrest.
 frowsy,adjective,"untidy, scruffy",The lush mane was ratted and backcombed into a frowsy beehive.
 fulcrum,noun,"1. the supporting point of a lever (e.g underneath a see-saw)
@@ -425,6 +426,7 @@ ion,noun,"a charged atom or molecule
 molecules are charged because the number of electrons does not equal the number of protons
 a cation is a positively-charged ion, while an anion is negatively charged",Ion channels are important components of cell membranes.
 irascible,adjective,quick to anger,He was an irascible and difficult man.
+irenicon,noun,"a written work or discourse aimed at promoting or achieving peace and reconciliation between conflicting individuals, groups, or nations.",The Irenicon is a thought-provoking novel that explores themes of peace and reconciliation.
 irreverent,adjective,showing lack of due respect,The comedian's irreverent jokes made the audience burst into laughter.
 isthmus,noun,"a land bridge, a narrow strip of land that stretches across a body of water to connect two larger land masses
 Greek word isthmos means ""neck""",Look at the Isthmus of Panama and you can see how that neck-like bit of land separates the Caribbean Sea from the North Pacific Ocean as it connects North and South America. 
@@ -441,8 +443,8 @@ influenced by two Latin words, jocundus - ""pleasant"", and jocus - ""joke""",Th
 kaleidoscope,noun,"a tube with a series of mirrors at one end that reflect multiple images of colored bits of glass that move, creating constantly-changing images as you turn the tube
 Byron broadened the meaning of the word, giving it the sense of a constantly changing pattern","As she twisted the kaleidoscope, an ever-changing pattern of vibrant colors and shapes captivated her gaze, providing a moment of delightful escape from the world around her."
 kleptocrat,noun,a ruler who uses their power to steal their country's resources,The citizens grew increasingly frustrated as it became apparent that their nation's wealth was being drained by a kleptocrat who cared for nothing but his own opulent lifestyle.
-laconic,adjective,using very few words,His laconic reply suggested a lack of interest in the topic.
 La Gioconda,noun,"Mona Lisa, a painting by Leonardo da Vinci",
+laconic,adjective,using very few words,His laconic reply suggested a lack of interest in the topic.
 lacuna,noun,"a gap or missing part. Used a lot to talk about missing parts of books or manuscripts, either because lost pages have created a lacuna, or because censors have blacked out or removed parts of them
 from the Latin lacuna - ""pit or hole""",The discovery of a lacuna in the historical texts left scholars debating over the missing piece of the ancient civilization's history.
 lambert,noun,"a former measure of luminance, equivalent to one lumen per square centimeter.","In photometry, the lambert is sometimes used as a unit of brightness."
@@ -518,6 +520,7 @@ nonplussed,adjective,"1, bewildered, puzzled, astounded, exasperated
 2, unperturbed
 there is no word plussed, you can only be nonplussed","You're nonplussed when your mother tells you she's marrying her 25-year-old personal trainer.
 You're nonplussed when your boss fires you, even though he tells you you’re the best employee he's ever had."
+nostrums,noun,ineffective or fraudulent remedies or medicines that are advertised as being able to cure or alleviate various ailments.,The salesman touted his miracle nostrums as the solution to all of life's ailments.
 numinous,adjective,"a strong religious quality, suggesting the presence of a divine power, communicating a spiritual vibe
 from the Latin numin - ""divine power"""," When you enter a temple, church, or mosque, you might feel as though you've entered a numinous space."
 obdurate,adjective,"stubborn, adamant
@@ -662,13 +665,13 @@ A pusillanimous student is too afraid to speak out against someone who is bullyi
 putative,adjective,"assumed, generally accepted","You might be the putative leader of your lacrosse team, even if someone else holds the title of captain."
 pyrrhic,adjective,"a victory won, but at too great a cost
 from the Greek general Pyrrhus, who defeated the Romans at the Battle of Asculum, but lost so many troops that he couldn't defeat Rome itself","If you are the winner in an argument with your brother, but the fight ends up ruining your relationship with him, it's a Pyrrhic victory."
+qualia / quale (singular form),the word qualia (singular),"individual instances of subjective, conscious experience, like 'what it is like to taste a specific orange, this particular orange now?'
+Daniel Dennett suggested that qualia was ""an unfamiliar term for something that could not be more familiar to each of us: the ways things seem to us.""","Examples of qualia include the perceived sensation of pain of a headache, the taste of wine, as well as the redness of an evening sky."
 quiescent,adjective,"1) being quiet, still, resting
 2) causing no symptoms
 3) not active","The quiescent moments lying in a hammock on a beautiful summer Sunday.
 If a disease is quiescent, you probably won't know you have it.
 Quiescent cleaning products that don't get the stains out."
-qualia / quale (singular form),the word qualia (singular),"individual instances of subjective, conscious experience, like 'what it is like to taste a specific orange, this particular orange now?'
-Daniel Dennett suggested that qualia was ""an unfamiliar term for something that could not be more familiar to each of us: the ways things seem to us.""","Examples of qualia include the perceived sensation of pain of a headache, the taste of wine, as well as the redness of an evening sky."
 quintessence,noun,"a perfect example
 Ancient Greek philosophers claimed there were five elements: earth, water, air, fire, and a fifth substance that made up objects in the heavens. Latin-speaking scholars called this fifth element quintessence - from the Latin words quintus- “fifth” and essentia- “being” ",Some people say that the quintessence of American cuisine is the hamburger. Vegetarians may beg to differ.
 Quisling,noun,"a traitor
@@ -699,8 +702,8 @@ French for ""novel with a key""","Both The Bell Jar by Sylvia Plath and The Sun 
 rube,noun,an insulting word for a person considered uneducated or uncultured,"The rookie policeman was not used to the harshness of city living, and he was often referred to as a rube by his more experienced colleagues."
 rubicund,adjective,"red, rosy, ruddy-cheeked or who flushes easily
 from the Latin rubicundus - ""to be red""",Your rubicund face is evidence of your embarrassment. 
-sagacity,noun,"wise, insightful, sagelike","Martha often sought advice from her grandmother, whose sagacity had been honed by years of experience and reflection."
 sagacious,adjective,"wise, insightful, sagelike",They were sagacious enough to avoid any outright confrontation.
+sagacity,noun,"wise, insightful, sagelike","Martha often sought advice from her grandmother, whose sagacity had been honed by years of experience and reflection."
 salubrious,adjective,"something that’s good for you, generally favorable to mind or body
 from salus - ""welfare, health”","I moved to the countryside for a change of pace and a more salubrious lifestyle, away from the city's pollution and noise."
 samizdat,noun,"the clandestine copying and distribution of literature banned by the state, especially in the communist countries of eastern Europe.","During the Cold War, dissidents in the Soviet Union circulated samizdat publications to spread their political messages."
@@ -740,6 +743,7 @@ skittish,adjective,unpredictable and excitable,The skittish foal ran away as soo
 solecism,noun,"1, a breach of good manners, an instance of incorrect behaviour
 2, a grammatical mistake in speech or writing
 from the ancient Greek meaning ""speaking incorrectly""",I'm sure the grammar police would be appalled by my solecism when I incorrectly used an adjective as an adverb.
+solemnity,noun,"the state or quality of being serious, dignified, or earnest, often associated with a formal or respectful occasion.",The atmosphere in the church grew with a sense of solemnity as the funeral service began.
 solipsism,noun,"the philosophical theory that the self is all that you know to exist
 from the Latin words sol - alone and ipse - self","My solipsism made me think that nothing I experienced was real, only an illusion created in my mind."
 specious,adjective,"an argument that seems to be good, correct, or logical, but is not; attractive in a deceptive way
@@ -777,6 +781,7 @@ teleological,noun,"starting from the end and reasoning back, explaining things b
 from the Greek roots telos - ""end"" and ology - ""study of""","The universe works through a teleological system, with everything existing in order to serve larger purposes."
 teleology,noun,"a philosophy that sees purpose in ends rather than stated causes. When you see things in terms of teleology, you explain actions by their results",Teleology is the study of the ultimate purpose or goal of a thing or process.
 telos,noun,an ultimate object or aim,"""People lose some moral purpose, a telos which provides the moral justification for the society."""
+threnody,noun,"a song, poem, or piece of music that expresses deep sorrow or mourning for someone or something.","The threnody echoed through the concert hall, evoking a profound sense of grief and mourning."
 timorous,adjective,"nervous, without confidence",The timorous mouse trembled in fear when it heard the loud noise.
 totalitarian / totalitarianism,noun,complete and absolute power over the people,"The country's government had a totalitarian approach to ruling, with several oppressive laws in place."
 traction,noun,"the friction between a body and the surface on which it moves, as between an automobile tire and the road",The tires on my car had excellent traction on the icy road.
@@ -802,8 +807,7 @@ from Latin word turbidus which means ""muddy, full of confusion""",The turbid wa
 turpitude,noun,"depraved behavior
 from Latin turpitudo - ""repulsiveness""",Acts of moral turpitude are crimes that are unusually sick or corrupt.
 ummah,noun,the Muslim community,The Ummah gathered at the mosque for the Friday prayer to seek solidarity and spiritual guidance.
-uncanny,adjective,"so mysterious, strange, or unfamiliar that it seems supernatural
-in modern English, canny is ""careful and clever, especially in handling money""","The resemblance between the two strangers was uncanny, as if they were twins separated at birth despite having no relation at all."
+uncanny,adjective,"so mysterious, strange, or unfamiliar that it seems supernatural; in modern English, canny is ""careful and clever, especially in handling money""","The resemblance between the two strangers was uncanny, as if they were twins separated at birth despite having no relation at all."
 unctuous,adjective,unpleasantly and excessively suave or ingratiating in manner or speech,Her unctuous greeting made me immediately suspicious of her sincerity.
 unregenerate,adjective,not reformed morally or spiritually,The unregenerate sinner could not break his evil habits.
 usufruct,noun,an ancient Roman law which stated that citizens could use and even profit from another person's land or property as long as it wasn't wasted or destroyed,"The tenant was given usufruct rights to the property, allowing them to benefit from the land while the owner retained ownership."
@@ -832,10 +836,11 @@ vivisection,noun,experimentaion on animals,"Despite the protests from animal rig
 voluble,adjective,someone who talks a lot,“She is an extremely voluble young woman who engages in soliloquies not conversations.”
 waxing / waning,waxing and waning are both verbs,of the moon: as its visible part becomes larger / smaller,"The moon's waxing and waning phases have fascinated sky gazers for centuries, illustrating the celestial dance as it transitions from new to full and back again."
 winnow,verb,to blow something away until you are left with what you want,A coach winnows down the top NBA draft picks to his number one choice.
+,,,
 wry,adjective,a sarcastic sense of humor,He delivered the news with a wry smile that betrayed his true feelings.
 yeoman,noun,a farmer who owned and worked his own land,"The yeoman toiled on the farm from dawn to dusk, ensuring that the fields were well cultivated for the upcoming harvest."
-Zelig,noun,"a person who is able to change their appearance, behaviour, or attitudes, so as to be comfortable in any situation",The name of Leonard Zelig - the central character in Woody Allen's film Zelig.
-Zionist,noun,movement of the Jewish people that supports the re-establishment of a Jewish homeland in the  historic Land of Israel (roughly corresponding to Canaan or the region of Palestine),The Zionist's dedication to the establishment and support of a Jewish state in the region of historic Israel was evident in his passionate speeches and activism.
 zealot,noun,"a fanatical and uncompromising person
 antonym: moderate
 historical: an ancient Jewish sect aimed at a world Jewish theocracy who resisted the Romans until AD 70",Reforming zealots destroyed a vast collection of papers.
+Zelig,noun,"a person who is able to change their appearance, behaviour, or attitudes, so as to be comfortable in any situation",The name of Leonard Zelig - the central character in Woody Allen's film Zelig.
+Zionist,noun,movement of the Jewish people that supports the re-establishment of a Jewish homeland in the  historic Land of Israel (roughly corresponding to Canaan or the region of Palestine),The Zionist's dedication to the establishment and support of a Jewish state in the region of historic Israel was evident in his passionate speeches and activism.
